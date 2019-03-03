@@ -1,0 +1,9 @@
+{
+  "singleQuote": true,
+  "dependencies": {
+    "csv-parse": "^4.3.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
