@@ -20,8 +20,8 @@ Total Average:      ${roundFixTwo(averageGrade).toFixed(2)}%
 
   courses.forEach(course => {
     card += `
-    Course: ${course.name}, Teacher: ${course.teacher}
-    Final Grade:      ${roundFixTwo(course.finalGrade).toFixed(2)}%
+        Course: ${course.name}, Teacher: ${course.teacher}
+        Final Grade:      ${roundFixTwo(course.finalGrade).toFixed(2)}%
     `;
   });
 

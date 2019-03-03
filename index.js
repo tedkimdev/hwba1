@@ -33,7 +33,7 @@ const reports = generateReport(students, marks, courses, tests);
 
 const reportsString = reports
   .map(report => generateReportCard(report))
-  .join('\n')
+  .join('\n\n')
   .trim();
 
 fs.writeFile('output.txt', reportsString, err => {
